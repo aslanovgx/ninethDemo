@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.div {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 300px;
+    width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.div div {
+    margin: 40px 0;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+
+.div div:hover {
+    box-shadow: -1px 11px 10px -3px rgba(214, 214, 214, 0.54);
+}
+
+.big {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.gray {
+    margin-top: 0;
+    color: gray;
+}
+
+.div .big {
+    font-weight: bold;
+}
+
+.div div p {
+    padding-left: 40px;
+}
+
+
+/* Icons */
+
+.fa-arrow-right {
+    color: #0056b3;
+    font-size: 2rem;
+    float: right;
+    margin-top: -70px;
+    margin-right: 40px;
+}
+
+.footer {
+    float: right;
+    margin: 200px 100px 0 0;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    margin: 0px 5px ;
+}
